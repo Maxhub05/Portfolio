@@ -1,0 +1,11 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  scroll-behavior: smooth;
+}
+
+body { min-width: 320px; color: #111; }
+a:focus-visible, button:focus-visible { outline: 3px solid #ffb700; outline-offset: 5px; }
+@media(prefers-reduced-motion: reduce) { * { scroll-behavior: auto; } }
